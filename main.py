@@ -19,11 +19,11 @@ def main():
 
         input_text = input("Throw out your trash here!: ")
 
-        if input_text.strip() == "test":
+        if input_text.strip() == "1240416085":
             if not playing:
-                play_song("scatman.mp3")
+                play_song("trashman.mp3")
                 playing = True
-        elif input_text.strip() == "stop":
+        elif input_text.strip() == "1953404283":
             if playing:
                 pygame.mixer.music.stop()
                 print("Thank you for the food!")
